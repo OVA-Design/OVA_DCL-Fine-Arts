@@ -14,10 +14,6 @@ import {
   engine,
   pointerEventsSystem
 } from '@dcl/sdk/ecs'
-import { initAssetPacks } from '@dcl/asset-packs/dist/scene-entrypoint'
-
-import { changeColorSystem, circularSystem } from './systems'
-import { setupUi } from './ui'
 import { createGLTF } from './factory'
 
 // You can remove this if you don't use any asset packs
