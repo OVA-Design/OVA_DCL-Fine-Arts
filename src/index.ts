@@ -6,6 +6,8 @@ import {
   AvatarAttach,
   Billboard,
   BillboardMode,
+  CameraModeArea,
+  CameraType,
   GltfContainer,
   Material,
   MeshRenderer,
@@ -16,15 +18,6 @@ import {
 } from '@dcl/sdk/ecs'
 import { createGLTF } from './factory'
 
-// You can remove this if you don't use any asset packs
-// initAssetPacks(engine, pointerEventsSystem, {
-//   Animator,
-//   AudioSource,
-//   AvatarAttach,
-//   Transform,
-//   VisibilityComponent,
-//   GltfContainer
-// })
 
 export function main() {
   // import exterior model
@@ -32,6 +25,16 @@ export function main() {
   // import interior model
   createGLTF({ position: { x: 16, y: 0, z: 8 } }, 'models/interior.glb')
   // createGLTF({ position: { x: 16, y: 0, z: 8 } }, 'models/OutterExterior.glb')
+
+  //first-person Camera modifiers
+  const CameraModeAreaEntity = engine.addEntity()
+  CameraModeArea.create(CameraModeAreaEntity, {
+    area: Vector3.create(32, 3, 16),
+    mode: CameraType.CT_FIRST_PERSON
+  })
+  Transform.create(CameraModeAreaEntity, {
+    position: Vector3.create(16, 0, 8)
+  })
 
   // import art 1
   // billboard face the player
@@ -49,48 +52,73 @@ export function main() {
   // Billboard.create(WaveofKanagawa, { billboardMode: BillboardMode.BM_Y })
 
   // import art 3
+  //import painting image
+  const PaintingEntity = engine.addEntity()
+  Transform.create(PaintingEntity, {
+    position: Vector3.create(30.25, 1.7, 4.5),
+    scale: { x: 5.5, y: 0.4, z: 2 },
+    rotation: Quaternion.fromEulerDegrees(0, 90, 0)
+  })
+  MeshRenderer.setPlane(PaintingEntity)
+  Material.setBasicMaterial(PaintingEntity, {
+    texture: Material.Texture.Common({
+      src: 'https://raw.githubusercontent.com/OVA-Design/OVA_DCL-Fine-Arts/main/images/Papyrus-Hunefer-full-small.jpg'
+    })
+  })
+  //import 3d asset
   const BustofNefertiti = createGLTF(
     { position: { x: 27, y: 1.38, z: 2 }, scale: { x: 1, y: 1, z: 1 } },
     'models/BustofNefertiti.glb'
   )
-  // //import painting image
-  // const PaintingEntity = engine.addEntity()
-  // Transform.create(PaintingEntity, {
-  //   position: Vector3.create(30.25, 1.7, 4.5),
-  //   scale: { x: 5.5, y: 0.4, z: 2 },
-  //   rotation: Quaternion.fromEulerDegrees(0, 90, 0)
-  // })
-  // MeshRenderer.setPlane(PaintingEntity)
-  // Material.setBasicMaterial(PaintingEntity, {
-  //   texture: Material.Texture.Common({
-  //     src: 'images/Papyrus-Hunefer-half.jpg'
-  //   })
-  // })
-  // Billboard.create(BustofNefertiti, { billboardMode: BillboardMode.BM_Y })
 
   // import art 4
+  //import painting image
+  const MonaLisaPainting = engine.addEntity()
+  Transform.create(MonaLisaPainting, {
+    position: Vector3.create(13.5, 1.6, 1.75),
+    scale: { x: 1 / 2, y: 1.492 / 2, z: 1 / 2 },
+    rotation: Quaternion.fromEulerDegrees(0, 180, 0)
+  })
+  MeshRenderer.setPlane(MonaLisaPainting)
+  Material.setBasicMaterial(MonaLisaPainting, {
+    texture: Material.Texture.Common({
+      src: 'https://raw.githubusercontent.com/OVA-Design/OVA_DCL-Fine-Arts/main/images/Mona_Lisa%2C_by_Leonardo_da_Vinci.jpg'
+    })
+  })
+  //import 3d asset
   const MonaLisa = createGLTF(
-    { position: { x: 13, y: 0.4, z: 7 }, scale: { x: 0.5, y: 0.5, z: 0.5 }, rotation: Quaternion.fromEulerDegrees(0, 180, 0) },
+    {
+      position: { x: 13, y: 0.4, z: 7 },
+      scale: { x: 0.5, y: 0.5, z: 0.5 },
+      rotation: Quaternion.fromEulerDegrees(0, 180, 0)
+    },
     'models/MonaLisa.glb'
   )
-    // Billboard.create(MonaLisa, { billboardMode: BillboardMode.BM_Y })
-
+  // Billboard.create(MonaLisa, { billboardMode: BillboardMode.BM_Y })
 
   // import art 5
   const Convergence = createGLTF(
-    { position: { x: 20, y: 0, z: 9 }, scale: { x: 1.5, y: 1.5, z: 1.5 } },
+    { position: { x: 20, y: 0, z: 9 }, scale: { x: 1.5, y: 1.3, z: 1.5 } },
     'models/Convergence.glb'
   )
 
   // import art 6
   const SunriseImpression = createGLTF(
-    { position: { x: 2, y: 0.75, z: 5 }, scale: { x: 1.3, y: 1.3, z: 1.3 }, rotation: Quaternion.fromEulerDegrees(0, 90, 0) },
+    {
+      position: { x: 2, y: 0.75, z: 5 },
+      scale: { x: 1.3, y: 1.3, z: 1.3 },
+      rotation: Quaternion.fromEulerDegrees(0, 90, 0)
+    },
     'models/SunriseImpression.glb'
   )
 
   // import art 7
   const LaDance = createGLTF(
-    { position: { x: 28.5, y: 0, z: 10.5 }, scale: { x: 1, y: 1, z: 1 }, rotation: Quaternion.fromEulerDegrees(0, 270, 0) },
+    {
+      position: { x: 28.5, y: 0, z: 10.5 },
+      scale: { x: 1, y: 1, z: 1 },
+      rotation: Quaternion.fromEulerDegrees(0, 270, 0)
+    },
     'models/LaDance.glb'
   )
 
