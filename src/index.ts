@@ -125,7 +125,7 @@ export function main() {
   )
   createImage(
     {
-      position: Vector3.create(30.25, 1.75, 6.5375-1.375),
+      position: Vector3.create(30.25, 1.75, 6.5375 - 1.375),
       scale: { x: 1.375, y: 0.4, z: 0.01 },
       rotation: Quaternion.fromEulerDegrees(0, 90, 0)
     },
@@ -133,7 +133,7 @@ export function main() {
   )
   createImage(
     {
-      position: Vector3.create(30.25, 1.75, 3.1+0.6875),
+      position: Vector3.create(30.25, 1.75, 3.1 + 0.6875),
       scale: { x: 1.375, y: 0.4, z: 0.01 },
       rotation: Quaternion.fromEulerDegrees(0, 90, 0)
     },
@@ -141,7 +141,7 @@ export function main() {
   )
   createImage(
     {
-      position: Vector3.create(30.25, 1.75, 3.1-0.6875),
+      position: Vector3.create(30.25, 1.75, 3.1 - 0.6875),
       scale: { x: 1.375, y: 0.4, z: 0.01 },
       rotation: Quaternion.fromEulerDegrees(0, 90, 0)
     },
@@ -224,8 +224,12 @@ export function main() {
 
   //// import art 8
   const CampbellSoupCans = createGLTF(
-    { position: { x: 5, y: 0, z: 9 }, scale: { x: 2, y: 2, z: 2 } },
-    'models/CampbellSoupCans.glb'
+    { 
+      position: { x: 5, y: 0, z: 9 }, 
+      scale: { x: 1, y: 1, z: 1 }, 
+      rotation: Quaternion.fromEulerDegrees(0, 90, 0)
+    },
+    'models/SoupCansWall.glb'
   )
 
   // Defining behavior. See `src/systems.ts` file.
