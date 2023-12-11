@@ -22,9 +22,12 @@ import { createGLTF, createImage, createText } from './factory'
 
 export function main() {
   // import exterior model
-  createGLTF({ position: { x: 16, y: 0, z: 8 } }, 'models/exterior.glb')
+  createGLTF({ position: { x: 16, y: 0, z: 8 } }, 'models/Exterior.glb')
   // import interior model
-  createGLTF({ position: { x: 16, y: 0, z: 8 } }, 'models/interior.glb')
+  createGLTF({ position: { x: 16, y: 0, z: 8 } }, 'models/Interior.glb')
+  // import ground model
+  createGLTF({ position: { x: 16, y: 0, z: 8 } }, 'models/Ground.glb')
+
   // first-person Camera modifiers
   const CameraModeAreaEntity = engine.addEntity()
   CameraModeArea.create(CameraModeAreaEntity, {
@@ -101,7 +104,7 @@ export function main() {
   //import painting image
   createImage(
     {
-      position: Vector3.create(20.5, 1.78, 7.3),
+      position: Vector3.create(20.5, 1.78, 7.35),
       scale: { x: 1.488 / 3.9, y: 1.01 / 3.9, z: 0.001 },
       rotation: Quaternion.fromEulerDegrees(0, 0, 0)
     },
