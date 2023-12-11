@@ -31,13 +31,19 @@ A series of iconic artworks from history were selected  and showcased in a virtu
 
 **Modernism:**
 *Dance (La Danse) (1910)* by Henri Matisse
+3D work is based on "Le Danse 4.0" (https://skfb.ly/6spMY) by Miguelangelo Rosario is licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/).
 
 **Abstract Art:**
 *Convergence (1952) by* Jackson Pollock
+Painting image was generated from AI tool(Stable Diffusion).
+3D work is based on "Jackson Pollock style VR sketch" (https://skfb.ly/6sENK) by sodazot is licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/).
+
 *Tableau I (1921) by* Piet Mondrian
 
 **Pop Art:**
 *Campbell's Soup Cans (1962)* by Andy Warhol
+Painting image was generated from AI tool(Stable Diffusion).
+3D work is based on "Campbell Soup Can" (https://skfb.ly/6UCYs) by Johana-PS is licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 
 ### 3D Assets Reusability:
 These digital rendition of renowned artworks transformed into 3D assets are free to be reused in your scene within  These high-quality assets would be of great complement to any (empty) open transitional spaces in galleries, shops or public developments, etc. Each art asset is optimized, lightweight and versatile, suitable for use in various settings. All assets are organized within the images and models folders.
