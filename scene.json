@@ -3,7 +3,7 @@
   "runtimeVersion": "7",
   "display": {
     "title": "SDK7 Scene Template",
-    "description": "template scene with SDK7",
+    "description": "Fine Arts Gallery by OVA.Design",
     "navmapThumbnail": "images/scene-thumbnail.png",
     "favicon": "favicon_asset"
   },
@@ -16,10 +16,20 @@
   "tags": [],
   "scene": {
     "parcels": [
+      "-1,-1",
+      "-1,0",
+      "-1,1",
+      "0,-1",
       "0,0",
-      "1,0"
+      "0,1",
+      "1,-1",
+      "1,0",
+      "1,1",
+      "2,-1",
+      "2,0",
+      "2,1"
     ],
-    "base": "0,0"
+    "base": "-1,-1"
   },
   "spawnPoints": [
     {
