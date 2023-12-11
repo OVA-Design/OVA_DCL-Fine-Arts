@@ -2,15 +2,15 @@
   "ecs7": true,
   "runtimeVersion": "7",
   "display": {
-    "title": "SDK7 Scene Template",
+    "title": "OVA_DCL-Fine-Arts",
     "description": "Fine Arts Gallery by OVA.Design",
     "navmapThumbnail": "images/scene-thumbnail.png",
     "favicon": "favicon_asset"
   },
   "owner": "",
   "contact": {
-    "name": "SDK",
-    "email": ""
+    "name": "OVA",
+    "email": "ovarchitecturedesign@gmail.com"
   },
   "main": "bin/index.js",
   "tags": [],
@@ -56,6 +56,9 @@
       }
     }
   ],
+  "worldConfiguration": {
+    "name": "OVA.dcl.eth"
+  },
   "requiredPermissions": [
     "ALLOW_TO_TRIGGER_AVATAR_EMOTE",
     "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
