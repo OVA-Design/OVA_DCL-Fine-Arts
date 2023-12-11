@@ -1,10 +1,14 @@
 {
-  "name": "dcl-project",
+  "name": "ova_dcl-fine-arts",
   "version": "1.0.0",
-  "description": "SDK7 Template scene",
+  "description": "Fine Arts Gallery by OVA.Design",
+  "author": {
+    "name": "OVA.Design"
+  },
   "scripts": {
     "start": "sdk-commands start",
     "deploy": "sdk-commands deploy",
+    "deploy:world": "sdk-commands deploy --target-content https://worlds-content-server.decentraland.org",
     "build": "sdk-commands build",
     "upgrade-sdk": "npm install --save-dev @dcl/sdk@latest",
     "upgrade-sdk:next": "npm install --save-dev @dcl/sdk@next"
