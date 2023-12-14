@@ -18,8 +18,8 @@ A series of iconic artworks from history were selected  and showcased in a virtu
 - A combination of the above techniques.
 
 **Ancient Art:**
-Weighing of the Heart (Anubis Details), from Book of the Dead of Ani. (19th Dynasty Egypt) Scroll Painting
-Bust of Nefertiti (1353-1335 BCE)
+Weighing of the Heart (Anubis Details), from Book of the Dead of Ani. (19th Dynasty Egypt) (Scroll Painting)
+Bust of Nefertiti (1353-1335 BCE) (statue)
 ![3D Bust of Nefertiti](https://assets-global.website-files.com/638c42526a8a27744c9da387/6578210b614d76c5de6ab4e6_Bust%20of%20N.webp)
 
 **Eastern Art:**
