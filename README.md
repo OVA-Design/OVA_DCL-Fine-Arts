@@ -17,33 +17,43 @@ A series of iconic artworks from history were selected  and showcased in a virtu
 - Sculpting in 3D while referencing the 2D image, using 3D modeling tools like Blender or Maya.
 - A combination of the above techniques.
 
+**Ancient Art:**
+Weighing of the Heart (Anubis Details), from Book of the Dead of Ani. (19th Dynasty Egypt) Scroll Painting
+Bust of Nefertiti (1353-1335 BCE)
+![3D Bust of Nefertiti](https://assets-global.website-files.com/638c42526a8a27744c9da387/6578210b614d76c5de6ab4e6_Bust%20of%20N.webp)
+
 **Eastern Art:**
 *The Great Wave off Kanagawa (1831)* by Katsushika Hokusai
+![3D Monet Sunrise Impression](https://assets-global.website-files.com/638c42526a8a27744c9da387/6578210b6ff8a9d0ee04dc11_Wave%20of%20K.webp)
 
 **Renaissance Art:**
 *Mona Lisa (1503)* by Leonardo da Vinci
+![3D Monet Sunrise Impression](https://assets-global.website-files.com/638c42526a8a27744c9da387/6578ee48b943799acfcd70b9_MonaLisa3D.webp)
 
 **Impressionism:**
 *Impression, Sunrise (1872)* by Claude Monet
-
-**Post-Impressionism:**
-*The Starry Night (1889)* by Vincent van Gogh
+![3D Monet Sunrise Impression](https://assets-global.website-files.com/638c42526a8a27744c9da387/6578e122756542f1c4464b98_Monet.webp)
 
 **Modernism:**
 *Dance (La Danse) (1910)* by Henri Matisse
+![3D Monet Sunrise Impression](https://assets-global.website-files.com/638c42526a8a27744c9da387/6578ef9964cf88c5d2e5495c_LaDance.webp)
 3D work is based on "Le Danse 4.0" (https://skfb.ly/6spMY) by Miguelangelo Rosario is licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/).
 
 **Abstract Art:**
 *Convergence (1952) by* Jackson Pollock
 Painting image was generated from AI tool(Stable Diffusion).
-3D work is based on "Jackson Pollock style VR sketch" (https://skfb.ly/6sENK) by sodazot is licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/).
+![3D Monet Sunrise Impression](https://assets-global.website-files.com/638c42526a8a27744c9da387/6578ef9c5d9628b6ac6935bd_Convergence.webp)
+Above 3D work is based on "Jackson Pollock style VR sketch" (https://skfb.ly/6sENK) by sodazot is licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/).
 
 *Tableau I (1921) by* Piet Mondrian
+![3D Mondrian Tableau I](https://assets-global.website-files.com/638c42526a8a27744c9da387/657a991a1fb97ff1a543ebf9_23_1212_Tableau%20Final.webp)
 
 **Pop Art:**
 *Campbell's Soup Cans (1962)* by Andy Warhol
 Painting image was generated from AI tool(Stable Diffusion).
-3D work is based on "Campbell Soup Can" (https://skfb.ly/6UCYs) by Johana-PS is licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+![3D Warhol Soup Cans](https://assets-global.website-files.com/638c42526a8a27744c9da387/6578dcbedc58c08042b086c5_Andy%20Warhol.webp)
+Avobe 3D work is based on "Campbell Soup Can" (https://skfb.ly/6UCYs) by Johana-PS is licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+
 
 ### 3D Assets Reusability:
 These digital rendition of renowned artworks transformed into 3D assets are free to be reused in your scene within  These high-quality assets would be of great complement to any (empty) open transitional spaces in galleries, shops or public developments, etc. Each art asset is optimized, lightweight and versatile, suitable for use in various settings. All assets are organized within the images and models folders.
