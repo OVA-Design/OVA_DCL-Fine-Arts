@@ -61,3 +61,25 @@ export function createText(transform: Partial<TransformType>, text: string): Ent
   })
   return sign
 }
+
+export function createTextNarrow(transform: Partial<TransformType>, text: string): Entity {
+  const sign = engine.addEntity()
+  Transform.create(sign, transform)
+  TextShape.create(sign, {
+    text: text,
+    textColor: { r: 1, g: 1, b: 1, a: 1 },
+    fontSize: 0.5,
+    font: Font.F_SANS_SERIF,
+    textAlign: 0,
+    textWrapping: true,
+    width: 0.75,
+    height: 2,
+    // lineCount: 5,
+    // lineSpacing: 30,
+    // shadowBlur: 0.8,
+    // shadowColor: { r: 1, g: 1, b: 1 },
+    // shadowOffsetY: 0,
+    // shadowOffsetX: 1
+  })
+  return sign
+}
