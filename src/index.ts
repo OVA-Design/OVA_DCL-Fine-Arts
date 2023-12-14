@@ -22,7 +22,7 @@ import { createGLTF, createImage, createText } from './factory'
 
 export function main() {
   // import exterior model
-  createGLTF({ position: { x: 16, y: 0, z: 8 } }, 'models/Exterior.glb')
+  createGLTF({ position: { x: 16, y: 0, z: 8 } }, 'models/ExteriorAnimated.glb')
   // import interior model
   createGLTF({ position: { x: 16, y: 0, z: 8 } }, 'models/Interior.glb')
   // import ground model
@@ -92,7 +92,7 @@ export function main() {
   // add text shapes for art description
   createText(
     { position: Vector3.create(15, 1, 1.65), rotation: Quaternion.fromEulerDegrees(0, 180, 0) },
-    "Mona Lisa by Da Vinci\nThe Mona Lisa is a half-length portrait painting by Italian artist Leonardo da Vinci. Considered an archetypal masterpiece of the Italian Renaissance, it has been described as 'the best known, the most visited, the most written about, the most sung about, and the most parodied work of art in the world'. The painting's novel qualities include the subject's enigmatic expression, monumentality of the composition, the subtle modeling of forms, and the atmospheric illusionism."
+    "Mona Lisa (1503) by Leonardo da Vinci \n \nThe Mona Lisa, painted by Leonardo da Vinci around 1503-1506, is a masterpiece of Renaissance portraiture. The painting features Lisa Gherardini, an Italian woman, with a captivating, enigmatic smile. Leonardo's use of sfumato, a technique blending subtle transitions between light and shadow, creates a lifelike and mysterious quality. This work is highly significant within the Renaissance movement, showcasing the era's emphasis on humanism, scientific observation, and the pursuit of realism in art. The Mona Lisa remains a symbol of artistic achievement and cultural legacy, representing the pinnacle of Renaissance portraiture."
   )
 
   //// import art 2
