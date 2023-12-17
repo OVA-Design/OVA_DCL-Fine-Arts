@@ -119,10 +119,10 @@ export function main() {
   //// import art 3
   //import 3d asset
   const BustofNefertiti = createGLTF(
-    { position: { x: 27, y: 1.38, z: 2 }, scale: { x: 1, y: 1, z: 1 }, rotation: Quaternion.fromEulerDegrees(0, 180, 0) },
-    'models/BustofNefertiti_rotated.glb'
+    { position: { x: 27, y: 1.38, z: 2 }, scale: { x: 1, y: 1, z: 1 } },
+    'models/Nefertiti.glb'
   )
-  Billboard.create(BustofNefertiti, { billboardMode: BillboardMode.BM_Y })
+  // Billboard.create(BustofNefertiti, { billboardMode: BillboardMode.BM_Y })s
   //import painting image
   createImage(
     {
@@ -159,7 +159,7 @@ export function main() {
   // add text shapes for art description
   createText(
     { position: Vector3.create(30.25, 0.47, 6.47), rotation: Quaternion.fromEulerDegrees(0, 90, 0) },
-    "<b><i>Weighing of the Heart (Anubis Details), from Book of the Dead of Ani.</i></b> (1250 BCE) \n \nThe '\'Weighing of the Heart (Anubis Details)'\' is a scene depicted in the Book of the Dead of Ani, an ancient Egyptian funerary text. It is considered to be the finest extant example of the Egyptian Book of the Dead. In this illustration, Anubis, the jackal-headed god associated with mummification and the afterlife, is shown conducting the crucial judgment process. Anubis weighs the heart of the deceased against the feather of Ma'at, the goddess of truth and justice. This symbolic act determines the fate of the soul in the afterlife. The scene encapsulates the Egyptian belief in the importance of a virtuous life and the pursuit of balance, ensuring a positive outcome in the journey to the hereafter."
+    "<b><i>Weighing of the Heart (Anubis Details), from Book of the Dead of Ani.</i></b> (1250 BCE) \n \nThe ''Weighing of the Heart (Anubis Details)'' is a scene depicted in the Book of the Dead of Ani, an ancient Egyptian funerary text. It is considered to be the finest extant example of the Egyptian Book of the Dead. In this illustration, Anubis, the jackal-headed god associated with mummification and the afterlife, is shown conducting the crucial judgment process. Anubis weighs the heart of the deceased against the feather of Ma'at, the goddess of truth and justice. This symbolic act determines the fate of the soul in the afterlife. The scene encapsulates the Egyptian belief in the importance of a virtuous life and the pursuit of balance, ensuring a positive outcome in the journey to the hereafter."
   )
   // add text shapes for art description
   createText(
@@ -179,7 +179,7 @@ export function main() {
   Material.setPbrMaterial(textBgEntity, {
     albedoColor: { r: 0.9137, g: 0.9019, b: 0.8941, a: 1 },
     roughness: 0.9,
-    emissiveColor: {r: 0.9137, g: 0.9019, b: 0.8941,},
+    emissiveColor: { r: 0.9137, g: 0.9019, b: 0.8941 },
     emissiveIntensity: 2
   })
 
@@ -285,11 +285,11 @@ export function main() {
     },
     'models/SoupCansWall.glb'
   )
-    // add text shapes for art description
-    createTextNarrow(
-      { position: Vector3.create(1.65, 1.4, 14), rotation: Quaternion.fromEulerDegrees(0, 270, 0) },
-      "<b><i>Campbell's Soup Cans</i></b> \n(AI generated) of Andy Warhol style\n \nAn iconic piece in the pop art movement. Consisting of 32 canvases, each depicting a different variety of Campbell's soup, the artwork challenges traditional notions of artistic subject matter. Warhol elevates mass-produced consumer goods to the status of high art, highlighting the influence of popular culture on artistic expression. '\'Campbell's Soup Cans'\' is a commentary on consumerism, mass production, and the intersection of art and everyday life."
-    )
+  // add text shapes for art description
+  createTextNarrow(
+    { position: Vector3.create(1.65, 1.4, 14), rotation: Quaternion.fromEulerDegrees(0, 270, 0) },
+    "<b><i>Campbell's Soup Cans</i></b> \n(AI generated) of Andy Warhol style\n \nAn iconic piece in the pop art movement. Consisting of 32 canvases, each depicting a different variety of Campbell's soup, the artwork challenges traditional notions of artistic subject matter. Warhol elevates mass-produced consumer goods to the status of high art, highlighting the influence of popular culture on artistic expression. ''Campbell's Soup Cans'' is a commentary on consumerism, mass production, and the intersection of art and everyday life."
+  )
 
   // Defining behavior. See `src/systems.ts` file.
   // engine.addSystem(circularSystem)

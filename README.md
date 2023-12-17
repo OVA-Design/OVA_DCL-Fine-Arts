@@ -21,6 +21,7 @@ A series of iconic artworks from history were selected  and showcased in a virtu
 *Weighing of the Heart (Anubis Details), from Book of the Dead of Ani.* (19th Dynasty Egypt) papyrus manuscript
 *The Bust of Nefertiti* (1353-1335 BCE) limestone statue
 ![3D Bust of Nefertiti](https://assets-global.website-files.com/638c42526a8a27744c9da387/6578210b614d76c5de6ab4e6_Bust%20of%20N.webp)
+3D work is based on "Nefertiti" (https://skfb.ly/UDpK) by Francesco Coldesina is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
 **Eastern Art:**
 *The Great Wave off Kanagawa (1831)* by Katsushika Hokusai
