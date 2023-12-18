@@ -231,11 +231,11 @@ export function main() {
   //// import art 6
   const SunriseImpression = createGLTF(
     {
-      position: { x: 2, y: 0.75, z: 5 },
+      position: { x: 2, y: 0.8, z: 5 },
       scale: { x: 1.3, y: 1.3, z: 1.3 },
       rotation: Quaternion.fromEulerDegrees(0, 90, 0)
     },
-    'models/SunriseImpression.glb'
+    'models/MonetSunrise.glb'
   )
   //import painting image
   createImage(
