@@ -224,7 +224,7 @@ export function main() {
   )
   // add text shapes for art description
   createTextNarrow(
-    { position: Vector3.create(16, 0.8, 14.35), rotation: Quaternion.fromEulerDegrees(0, 0, 0) },
+    { position: Vector3.create(16, 0.85, 14.35), rotation: Quaternion.fromEulerDegrees(0, 0, 0) },
     "<b><i>Convergence</i></b> (AI generated) of Jackson Pollock style \n \nA seminal piece in the abstract expressionist movement. Known for his innovative ''drip painting'' technique, Pollock creates a dynamic and chaotic composition with splatters and drips of paint on a large canvas. ''Convergence'' represents the spontaneity and emotional intensity characteristic of abstract expressionism, challenging conventional notions of control and order in art."
   )
 
