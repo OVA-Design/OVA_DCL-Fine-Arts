@@ -7,6 +7,9 @@
   },
   "scripts": {
     "start": "sdk-commands start",
+    "start-no-debug": "sdk-commands start --no-debug",
+    "start-desktop": "sdk-commands start --desktop-client",
+    "start-desktop-no-debug": "sdk-commands start --desktop-client --no-debug",
     "deploy": "sdk-commands deploy",
     "deploy:world": "sdk-commands deploy --target-content https://worlds-content-server.decentraland.org",
     "build": "sdk-commands build",
@@ -14,8 +17,8 @@
     "upgrade-sdk:next": "npm install --save-dev @dcl/sdk@next"
   },
   "devDependencies": {
-    "@dcl/js-runtime": "7.3.30",
-    "@dcl/sdk": "^7.3.30"
+    "@dcl/js-runtime": "7.3.35",
+    "@dcl/sdk": "^7.3.35"
   },
   "engines": {
     "node": ">=16.0.0",

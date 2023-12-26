@@ -22,11 +22,11 @@ import { createGLTF, createImage, createText, createTextNarrow } from './factory
 
 export function main() {
   // import exterior model
-  createGLTF({ position: { x: 16, y: 2, z: 8 } }, 'models/newFins.glb')
+  createGLTF({ position: { x: 16, y: 2, z: 8 } }, 'models/Exterior.glb')
   // import interior model
   createGLTF({ position: { x: 16, y: 2, z: 8 } }, 'models/Interior.glb')
   // import ground model
-  // createGLTF({ position: { x: 16, y: 0, z: 8 } }, 'models/Ground.glb')
+  createGLTF({ position: { x: 16, y: 0, z: 8 } }, 'models/GroundPlane.glb')
 
   // first-person Camera modifiers
   const CameraModeAreaEntity = engine.addEntity()
@@ -283,7 +283,7 @@ export function main() {
       scale: { x: 1, y: 1, z: 1 },
       rotation: Quaternion.fromEulerDegrees(0, 90, 0)
     },
-    'models/SoupCansWall.glb'
+    'models/CampbellSoupCans.glb'
   )
   // add text shapes for art description
   createTextNarrow(
